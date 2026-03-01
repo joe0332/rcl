@@ -110,7 +110,7 @@ export default function HomePage() {
         <Container>
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              How it works
+              How It Works
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Memory science meets SAT prep. Every question you answer makes your study plan smarter.
@@ -273,7 +273,7 @@ export default function HomePage() {
                 Start your free trial today. No credit card required. Cancel anytime.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button variant="primary" size="lg" href="#start">
+                <Button variant="primary" size="lg" href={siteConfig.routes.signup}>
                   {siteConfig.cta.primary}
                 </Button>
                 <Button variant="outline" size="lg" href="/pricing">
