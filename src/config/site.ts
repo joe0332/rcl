@@ -42,6 +42,19 @@ export const siteConfig = {
     ],
   },
 
+  // LEGAL DISCLAIMERS
+  disclaimers: {
+    trademark: "SAT® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this product.",
+    results: "Individual results may vary. Score improvements depend on many factors including baseline knowledge, study consistency, and test-taking skills. Testimonials represent individual experiences and are not guarantees of future results.",
+  },
+
+  // CTA ROUTES
+  // NOTE: Update these when signup flow is implemented
+  routes: {
+    signup: "#start", // TODO: Replace with actual signup route when implemented
+    demo: "/how-it-works",
+  },
+
   // FEATURED STATS (for trust/social proof)
   stats: {
     studentsHelped: "10,000+",
@@ -50,29 +63,30 @@ export const siteConfig = {
   },
 
   // COMPETITOR COMPARISON COPY
+  // NOTE: Keep claims general and verifiable. Specific competitor pricing requires citation.
   competitorComparison: {
-    headline: "RecallPrep vs. Traditional SAT Prep",
-    description: "Many traditional SAT prep programs require long-term commitments and high upfront costs. RecallPrep is affordable, flexible, and built on memory science.",
+    headline: "Why choose RecallPrep",
+    description: "Many traditional SAT prep programs are higher-cost and commitment-heavy. RecallPrep is designed to be affordable and flexible.",
     dimensions: [
       {
-        feature: "Monthly Cost",
-        traditional: "$200-400/month",
+        feature: "Pricing Model",
+        traditional: "Often higher monthly costs", // Compliance: Removed specific unverified price ranges
         recallprep: "$49/month",
       },
       {
-        feature: "Contract Required",
-        traditional: "Often 3-6 months",
-        recallprep: "None (cancel anytime)",
+        feature: "Commitment",
+        traditional: "Multi-month contracts common", // Compliance: Softened from specific "3-6 months"
+        recallprep: "Cancel anytime, no contract",
       },
       {
-        feature: "Adaptive Personalization",
-        traditional: "Initial diagnostic only",
-        recallprep: "Continuous real-time adaptation",
+        feature: "Personalization",
+        traditional: "Typically one-time diagnostic",
+        recallprep: "Adapts after every question",
       },
       {
-        feature: "Study Efficiency",
+        feature: "Study Approach",
         traditional: "Fixed lesson sequences",
-        recallprep: "Focus on your weak areas",
+        recallprep: "Targets your weak areas",
       },
     ],
   },

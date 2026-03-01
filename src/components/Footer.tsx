@@ -62,16 +62,24 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">
-            {siteConfig.footer.copyright}
-          </p>
-          <a
-            href={`mailto:${siteConfig.footer.email}`}
-            className="text-sm text-muted-foreground hover:text-primary transition-colors"
-          >
-            {siteConfig.footer.email}
-          </a>
+        <div className="mt-12 pt-8 border-t border-border">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-6">
+            <p className="text-sm text-muted-foreground">
+              {siteConfig.footer.copyright}
+            </p>
+            <a
+              href={`mailto:${siteConfig.footer.email}`}
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              {siteConfig.footer.email}
+            </a>
+          </div>
+
+          {/* Legal Disclaimers */}
+          <div className="space-y-3 text-xs text-muted-foreground/80 leading-relaxed max-w-4xl">
+            <p>{siteConfig.disclaimers.trademark}</p>
+            <p>{siteConfig.disclaimers.results}</p>
+          </div>
         </div>
       </Container>
     </footer>
