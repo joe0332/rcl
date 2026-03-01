@@ -5,7 +5,7 @@
 
 export const siteConfig = {
   // BRAND IDENTITY
-  name: "RecallPrep",
+  name: "Recall Labs",
   tagline: "Train recall. Raise your SAT score.",
   description: "Adaptive SAT prep powered by spaced repetition and retrieval practice. Master Math and Reading/Writing with personalized, science-backed study sessions.",
 
@@ -33,7 +33,7 @@ export const siteConfig = {
 
   // SOCIAL/CONTACT
   footer: {
-    copyright: `© ${new Date().getFullYear()} RecallPrep. All rights reserved.`,
+    copyright: `© ${new Date().getFullYear()} Recall Labs. All rights reserved.`,
     email: "hello@recallprep.com",
     links: [
       { name: "Privacy Policy", href: "/privacy" },
