@@ -318,8 +318,15 @@ export default function HowItWorksPage() {
         </Container>
       </section>
 
-      {/* Comparison Table */}
+      {/* Adaptive Learning Loop - Standout Differentiator */}
       <section className="py-24">
+        <Container>
+          <AdaptiveLearningLoop />
+        </Container>
+      </section>
+
+      {/* Comparison Table */}
+      <section className="py-24 bg-muted/20">
         <Container>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold text-foreground mb-12 text-center">
@@ -446,7 +453,7 @@ export default function HowItWorksPage() {
                 Stop wasting time on what you already know. Start focusing on what matters.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button variant="primary" size="lg" href="/#start">
+                <Button variant="primary" size="lg" href={siteConfig.routes.signup}>
                   {siteConfig.cta.primary}
                 </Button>
                 <Button variant="outline" size="lg" href="/pricing">
