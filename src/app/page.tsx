@@ -42,13 +42,10 @@ export default function HomePage() {
                 </Button>
               </div>
 
-              {/* Trust Bar - Compact */}
-              <TrustBar variant="compact" />
-
-              {/* Hero Proof Line */}
+              {/* Hero Trust Element - Single primary trust signal */}
               <div className="mt-6 pt-6 border-t border-border/50">
                 <p className="text-sm text-muted-foreground italic leading-relaxed">
-                  {siteConfig.heroProofLine}
+                  {siteConfig.heroTrustText[siteConfig.heroTrustMode]}
                 </p>
               </div>
             </div>

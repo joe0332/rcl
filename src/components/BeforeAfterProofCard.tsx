@@ -8,6 +8,26 @@ import { siteConfig } from "@/config/site";
 export function BeforeAfterProofCard() {
   const { adaptiveProofCard } = siteConfig;
 
+  // Extract numeric value from string like "2 questions/week" → 2
+  const extractNumber = (str: string): number => {
+    const match = str.match(/\d+/);
+    return match ? parseInt(match[0], 10) : 0;
+  };
+
+  // Determine direction and appropriate arrow/color
+  const getDirection = (before: string, after: string) => {
+    const beforeNum = extractNumber(before);
+    const afterNum = extractNumber(after);
+
+    if (afterNum > beforeNum) {
+      return { arrow: "↑", color: "text-success" }; // Increased
+    } else if (afterNum < beforeNum) {
+      return { arrow: "↓", color: "text-warning" }; // Decreased
+    } else {
+      return { arrow: "→", color: "text-muted-foreground" }; // No change
+    }
+  };
+
   return (
     <div className="rounded-2xl border border-primary/30 bg-gradient-to-br from-muted/50 to-muted/30 p-6 shadow-lg">
       {/* Header */}
@@ -40,15 +60,20 @@ export function BeforeAfterProofCard() {
           <div className="text-xs font-semibold text-primary uppercase tracking-wide">
             {adaptiveProofCard.afterLabel}
           </div>
-          {adaptiveProofCard.examples.map((example, index) => (
-            <div key={`after-${index}`} className="space-y-1">
-              <div className="flex items-baseline justify-between text-sm">
-                <span className="text-muted-foreground">{example.topic}</span>
-                <span className="text-primary font-semibold">{example.after}</span>
+          {adaptiveProofCard.examples.map((example, index) => {
+            const direction = getDirection(example.before, example.after);
+            return (
+              <div key={`after-${index}`} className="space-y-1">
+                <div className="flex items-baseline justify-between text-sm">
+                  <span className="text-muted-foreground">{example.topic}</span>
+                  <span className="text-primary font-semibold">{example.after}</span>
+                </div>
+                <div className={`text-xs italic ${direction.color}`}>
+                  {direction.arrow} {example.note}
+                </div>
               </div>
-              <div className="text-xs text-success italic">↑ {example.note}</div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
