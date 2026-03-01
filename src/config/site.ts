@@ -61,9 +61,13 @@ export const siteConfig = {
     averageImprovement: "120+ points",
   },
 
-  // HERO PROOF LINE (configurable trust element)
-  // Replace with verified student quote or metric before launch
-  heroProofLine: '"RecallPrep helped me stop wasting time on topics I already knew." — Sarah M., High School Junior',
+  // HERO TRUST ELEMENT (configurable - use one primary trust signal above the fold)
+  // Mode: "quote" displays a student/parent quote | "metric" displays a verified stat
+  heroTrustMode: "quote" as "quote" | "metric",
+  heroTrustText: {
+    quote: '"RecallPrep helped me stop wasting time on topics I already knew." — Sarah M., High School Junior',
+    metric: "Trusted by 10,000+ students preparing for the SAT",
+  },
 
   // ADAPTIVE PROOF CARD (before/after weekly study shift)
   adaptiveProofCard: {
