@@ -17,7 +17,7 @@ export const siteConfig = {
 
   // PRICING (Single Plan)
   pricing: {
-    planName: "RecallPrep Monthly",
+    planName: "Recall Labs Monthly",
     price: 49,
     currency: "$",
     interval: "month",
@@ -65,7 +65,7 @@ export const siteConfig = {
   // Mode: "quote" displays a student/parent quote | "metric" displays a verified stat
   heroTrustMode: "quote" as "quote" | "metric",
   heroTrustText: {
-    quote: '"RecallPrep helped me stop wasting time on topics I already knew." — Sarah M., High School Junior',
+    quote: '"Recall Labs helped me stop wasting time on topics I already knew." — Sarah M., High School Junior',
     metric: "Trusted by 10,000+ students preparing for the SAT",
   },
 
@@ -101,8 +101,8 @@ export const siteConfig = {
   // COMPETITOR COMPARISON COPY
   // NOTE: Keep claims general and verifiable. Specific competitor pricing requires citation.
   competitorComparison: {
-    headline: "Why choose RecallPrep",
-    description: "Many traditional SAT prep programs are higher-cost and commitment-heavy. RecallPrep is designed to be affordable and flexible.",
+    headline: "Why choose Recall Labs",
+    description: "Many traditional SAT prep programs are higher-cost and commitment-heavy. Recall Labs is designed to be affordable and flexible.",
     dimensions: [
       {
         feature: "Pricing Model",
@@ -130,7 +130,7 @@ export const siteConfig = {
   // TUTOR COMPARISON (for pricing page)
   // NOTE: Frame as market observation, not specific claim
   tutorComparison: {
-    description: "Private SAT tutors commonly start around $50/hour and can be significantly higher depending on market and experience. RecallPrep offers daily adaptive practice at a predictable monthly cost.",
+    description: "Private SAT tutors commonly start around $50/hour and can be significantly higher depending on market and experience. Recall Labs offers daily adaptive practice at a predictable monthly cost.",
     recallprepValue: "Unlimited daily sessions at $49/month",
     tutorCost: "Starts ~$50/hour",
   },

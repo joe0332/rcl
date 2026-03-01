@@ -26,7 +26,7 @@ export function ComparisonTable({ rows }: ComparisonTableProps) {
               Traditional Prep
             </th>
             <th className="px-4 py-4 text-left text-sm font-semibold text-primary">
-              RecallPrep
+              Recall Labs
             </th>
           </tr>
         </thead>

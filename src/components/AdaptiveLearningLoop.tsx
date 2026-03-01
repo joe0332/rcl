@@ -66,7 +66,7 @@ export function AdaptiveLearningLoop() {
         </h3>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
           Every answer you give updates your personalized study schedule in real-time.
-          This continuous cycle is what makes RecallPrep adaptive.
+          This continuous cycle is what makes Recall Labs adaptive.
         </p>
       </div>
 
