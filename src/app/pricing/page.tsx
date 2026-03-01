@@ -108,6 +108,62 @@ export default function PricingPage() {
         </Container>
       </section>
 
+      {/* Tutor Comparison */}
+      <section className="py-24">
+        <Container>
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold text-foreground mb-4">
+                RecallPrep vs. Private Tutoring
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                {siteConfig.tutorComparison.description}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Private Tutor */}
+              <div className="rounded-2xl border border-border/50 bg-muted/10 p-8">
+                <div className="text-4xl mb-4">👨‍🏫</div>
+                <h3 className="text-2xl font-semibold text-foreground mb-3">
+                  Private SAT Tutor
+                </h3>
+                <div className="space-y-3 text-muted-foreground">
+                  <p className="text-lg font-semibold text-foreground">
+                    {siteConfig.tutorComparison.tutorCost}
+                  </p>
+                  <ul className="space-y-2 text-sm">
+                    <li>• Hourly billing adds up quickly</li>
+                    <li>• Scheduling can be inflexible</li>
+                    <li>• Cost varies by market and experience</li>
+                    <li>• Limited session frequency</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* RecallPrep */}
+              <div className="rounded-2xl border border-primary/50 bg-gradient-to-br from-primary/10 to-secondary/10 p-8">
+                <div className="text-4xl mb-4">🎯</div>
+                <h3 className="text-2xl font-semibold text-foreground mb-3">
+                  RecallPrep
+                </h3>
+                <div className="space-y-3">
+                  <p className="text-lg font-semibold text-primary">
+                    {siteConfig.tutorComparison.recallprepValue}
+                  </p>
+                  <ul className="space-y-2 text-sm text-foreground">
+                    <li>✓ Predictable monthly cost</li>
+                    <li>✓ Study anytime, anywhere</li>
+                    <li>✓ Unlimited daily sessions</li>
+                    <li>✓ Adapts to your exact needs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Value Section */}
       <section className="py-24">
         <Container>
