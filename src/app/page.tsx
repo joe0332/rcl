@@ -6,6 +6,7 @@ import { FeatureCard } from "@/components/FeatureCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { MockupCard } from "@/components/MockupCard";
 import { FAQ } from "@/components/FAQ";
+import { TrustBar } from "@/components/TrustBar";
 
 export default function HomePage() {
   return (
@@ -25,8 +26,11 @@ export default function HomePage() {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Master SAT Math and Reading/Writing with adaptive study sessions powered by spaced repetition.
-                Your weaknesses appear more often. Your strengths fade out. Memory science, not busywork.
+                <strong className="text-foreground">Adaptive SAT prep</strong> that focuses your study time where it matters.
+                <br />
+                Weak topics appear more often until mastery.
+                <br />
+                <strong className="text-foreground">Strong topics move to smart check-ins</strong> to prevent forgetting.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button variant="primary" size="lg" href={siteConfig.routes.signup}>
@@ -36,6 +40,9 @@ export default function HomePage() {
                   {siteConfig.cta.secondary}
                 </Button>
               </div>
+
+              {/* Trust Bar - Compact */}
+              <TrustBar variant="compact" />
             </div>
 
             {/* Hero Visual - Adaptive Mockups */}
@@ -57,26 +64,6 @@ export default function HomePage() {
                   detail="Last practiced 14 days ago • Retention check"
                 />
               </div>
-            </div>
-          </div>
-        </Container>
-      </section>
-
-      {/* Trust Bar */}
-      <section className="border-y border-border bg-muted/20 py-8">
-        <Container>
-          <div className="flex flex-col md:flex-row items-center justify-around gap-8">
-            <div className="text-center">
-              <p className="text-3xl font-bold text-foreground">{siteConfig.stats.studentsHelped}</p>
-              <p className="text-sm text-muted-foreground">Students helped</p>
-            </div>
-            <div className="text-center">
-              <p className="text-3xl font-bold text-foreground">{siteConfig.stats.questionsAdaptive}</p>
-              <p className="text-sm text-muted-foreground">Adaptive questions</p>
-            </div>
-            <div className="text-center">
-              <p className="text-3xl font-bold text-foreground">{siteConfig.stats.averageImprovement}</p>
-              <p className="text-sm text-muted-foreground">Avg. improvement</p>
             </div>
           </div>
         </Container>

@@ -14,14 +14,10 @@ export default function HowItWorksPage() {
         <Container className="relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight mb-6">
-              How{" "}
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                RecallPrep
-              </span>{" "}
-              works
+              How It Works
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Seven steps to smarter SAT prep, powered by adaptive spaced repetition and retrieval practice.
+              Adaptive SAT prep in seven steps. Every answer you give makes your study plan smarter.
             </p>
           </div>
         </Container>
