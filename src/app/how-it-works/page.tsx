@@ -3,6 +3,7 @@ import { siteConfig } from "@/config/site";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { ComparisonTable } from "@/components/ComparisonTable";
+import { AdaptiveLearningLoop } from "@/components/AdaptiveLearningLoop";
 
 export default function HowItWorksPage() {
   return (
