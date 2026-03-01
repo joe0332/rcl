@@ -6,7 +6,6 @@ import { FeatureCard } from "@/components/FeatureCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { MockupCard } from "@/components/MockupCard";
 import { FAQ } from "@/components/FAQ";
-import { TrustBar } from "@/components/TrustBar";
 import { BeforeAfterProofCard } from "@/components/BeforeAfterProofCard";
 
 export default function HomePage() {
