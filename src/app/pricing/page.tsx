@@ -4,6 +4,7 @@ import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { PricingCard } from "@/components/PricingCard";
 import { FAQ } from "@/components/FAQ";
+import { TrustBar } from "@/components/TrustBar";
 
 export default function PricingPage() {
   return (
@@ -32,6 +33,9 @@ export default function PricingPage() {
                 {siteConfig.cta.secondary}
               </Button>
             </div>
+
+            {/* Trust Bar - Compact */}
+            <TrustBar variant="compact" />
           </div>
         </Container>
       </section>
