@@ -301,7 +301,7 @@ export default function HowItWorksPage() {
                 produces stronger, more durable learning than passive methods.
               </p>
               <p>
-                RecallPrep combines both: you actively recall SAT concepts while the algorithm spaces
+                Recall Labs combines both: you actively recall SAT concepts while the algorithm spaces
                 reviews based on your performance. Together, they create an evidence-based system for
                 efficient SAT prep.
               </p>
@@ -322,7 +322,7 @@ export default function HowItWorksPage() {
         <Container>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold text-foreground mb-12 text-center">
-              How RecallPrep compares
+              How Recall Labs compares
             </h2>
             <ComparisonTable
               rows={[

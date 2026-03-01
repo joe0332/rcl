@@ -82,7 +82,7 @@ export default function PricingPage() {
                         Traditional Prep
                       </th>
                       <th className="px-6 py-4 text-left text-sm font-semibold text-primary">
-                        RecallPrep
+                        Recall Labs
                       </th>
                     </tr>
                   </thead>
@@ -114,7 +114,7 @@ export default function PricingPage() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-foreground mb-4">
-                RecallPrep vs. Private Tutoring
+                Recall Labs vs. Private Tutoring
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 {siteConfig.tutorComparison.description}
@@ -141,11 +141,11 @@ export default function PricingPage() {
                 </div>
               </div>
 
-              {/* RecallPrep */}
+              {/* Recall Labs */}
               <div className="rounded-2xl border border-primary/50 bg-gradient-to-br from-primary/10 to-secondary/10 p-8">
                 <div className="text-4xl mb-4">🎯</div>
                 <h3 className="text-2xl font-semibold text-foreground mb-3">
-                  RecallPrep
+                  Recall Labs
                 </h3>
                 <div className="space-y-3">
                   <p className="text-lg font-semibold text-primary">
@@ -169,7 +169,7 @@ export default function PricingPage() {
         <Container>
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-foreground mb-12 text-center">
-              Why students choose RecallPrep
+              Why students choose Recall Labs
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="rounded-2xl border border-border bg-muted/30 p-8">
@@ -222,7 +222,7 @@ export default function PricingPage() {
             items={[
               {
                 question: "Is there a contract or long-term commitment?",
-                answer: `No. RecallPrep is month-to-month at ${siteConfig.pricing.currency}${siteConfig.pricing.price}. There are no long-term contracts, no hidden fees, and no cancellation penalties. You can cancel anytime from your account settings.`,
+                answer: `No. Recall Labs is month-to-month at ${siteConfig.pricing.currency}${siteConfig.pricing.price}. There are no long-term contracts, no hidden fees, and no cancellation penalties. You can cancel anytime from your account settings.`,
               },
               {
                 question: "Can I cancel anytime?",
@@ -234,7 +234,7 @@ export default function PricingPage() {
               },
               {
                 question: "Is there a free trial?",
-                answer: "Yes! You can start a free trial to experience RecallPrep's adaptive study system before committing. No credit card required to start the trial.",
+                answer: "Yes! You can start a free trial to experience Recall Labs's adaptive study system before committing. No credit card required to start the trial.",
               },
               {
                 question: "Do you offer refunds?",

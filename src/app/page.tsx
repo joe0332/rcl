@@ -90,7 +90,7 @@ export default function HomePage() {
               Stop studying what you already know
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Traditional SAT prep wastes time on fixed sequences. RecallPrep adapts to your actual performance,
+              Traditional SAT prep wastes time on fixed sequences. Recall Labs adapts to your actual performance,
               targeting weak areas until mastery and preventing forgetting through smart check-ins.
             </p>
           </div>
@@ -106,7 +106,7 @@ export default function HomePage() {
               </ul>
             </div>
             <div className="rounded-2xl border border-primary/50 bg-gradient-to-br from-primary/10 to-secondary/10 p-6">
-              <div className="text-success mb-2 text-lg font-semibold">✓ RecallPrep</div>
+              <div className="text-success mb-2 text-lg font-semibold">✓ Recall Labs</div>
               <ul className="space-y-2 text-sm text-foreground">
                 <li>• Personalized to your gaps</li>
                 <li>• Adapts after every question</li>
@@ -211,7 +211,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Efficiency-focused testimonial */}
             <TestimonialCard
-              quote="RecallPrep focused my study time on exactly what I needed. No more wasting hours on stuff I already knew."
+              quote="Recall Labs focused my study time on exactly what I needed. No more wasting hours on stuff I already knew."
               author="Sarah M."
               role="High School Junior"
               improvement="140"
@@ -249,12 +249,12 @@ export default function HomePage() {
                 answer: "Every time you answer a question, our algorithm updates your personalized study schedule. If you get a question wrong, that topic appears more frequently until you demonstrate mastery. Once mastered, it fades to periodic check-ins to prevent forgetting. This is based on decades of memory science research.",
               },
               {
-                question: "What SAT content does RecallPrep cover?",
-                answer: "RecallPrep covers all SAT Math topics (Algebra, Advanced Math, Problem-Solving, Geometry) and all Reading & Writing skills (comprehension, vocabulary, grammar, rhetoric). You'll get mixed practice sessions that keep you sharp across both sections.",
+                question: "What SAT content does Recall Labs cover?",
+                answer: "Recall Labs covers all SAT Math topics (Algebra, Advanced Math, Problem-Solving, Geometry) and all Reading & Writing skills (comprehension, vocabulary, grammar, rhetoric). You'll get mixed practice sessions that keep you sharp across both sections.",
               },
               {
                 question: "How is this different from Khan Academy or practice books?",
-                answer: "Khan Academy and books use fixed lesson sequences—everyone follows the same path. RecallPrep adapts in real-time to your performance. If you're weak in quadratic functions but strong in linear equations, you'll see more quadratics. Plus, we use retrieval practice (active recall) instead of passive video lessons.",
+                answer: "Khan Academy and books use fixed lesson sequences—everyone follows the same path. Recall Labs adapts in real-time to your performance. If you're weak in quadratic functions but strong in linear equations, you'll see more quadratics. Plus, we use retrieval practice (active recall) instead of passive video lessons.",
               },
               {
                 question: "How much time should I spend studying per day?",
@@ -266,7 +266,7 @@ export default function HomePage() {
               },
               {
                 question: "Can I use this on my phone?",
-                answer: "Absolutely. RecallPrep is a web app that works on any device—desktop, tablet, or mobile. Study anywhere, and your progress syncs automatically.",
+                answer: "Absolutely. Recall Labs is a web app that works on any device—desktop, tablet, or mobile. Study anywhere, and your progress syncs automatically.",
               },
             ]}
           />
