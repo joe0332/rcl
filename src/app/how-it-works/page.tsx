@@ -41,9 +41,8 @@ export default function HowItWorksPage() {
                   Diagnostic + Baseline
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  You start with a quick diagnostic covering SAT Math and Reading/Writing fundamentals.
-                  We identify your current strengths and gaps across all tested topics. This baseline
-                  informs your initial study plan—but unlike traditional prep, the plan keeps evolving.
+                  Start with a quick diagnostic covering SAT Math and Reading/Writing fundamentals.
+                  We identify your strengths and gaps—then build your initial study plan.
                 </p>
               </div>
               <div className="rounded-2xl border border-border bg-muted/30 p-8">
@@ -106,9 +105,8 @@ export default function HowItWorksPage() {
                   Personalized Study Map
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Based on your diagnostic, we generate a customized study schedule. Topics you struggled
-                  with get high priority. Topics you've mastered go into maintenance mode. This isn't
-                  static—it updates continuously as you practice.
+                  Your study schedule is customized to you. Weak topics get high priority,
+                  mastered topics move to maintenance. It updates continuously as you practice.
                 </p>
               </div>
             </div>
@@ -295,23 +293,21 @@ export default function HowItWorksPage() {
             <h2 className="text-4xl font-bold text-foreground mb-6 text-center">
               The science behind it
             </h2>
-            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+            <div className="space-y-6 text-base text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">Spaced repetition</strong> is one of the most well-researched
-                learning techniques. Instead of cramming information all at once, you review it at increasing
-                intervals (1 day, 3 days, 7 days, 14 days, etc.). This pattern aligns with how memory consolidation
-                works in the brain, dramatically improving long-term retention.
+                <strong className="text-foreground">Spaced repetition</strong> means reviewing material
+                at increasing intervals (1 day, 3 days, 7 days, etc.). This aligns with how memory
+                consolidation works in the brain, dramatically improving long-term retention.
               </p>
               <p>
-                <strong className="text-foreground">Retrieval practice</strong> (also called active recall) means
-                actively pulling information from memory rather than passively rereading notes or watching videos.
-                Research consistently shows that retrieval practice produces stronger, more durable learning than
-                passive review methods.
+                <strong className="text-foreground">Retrieval practice</strong> (active recall) means
+                pulling information from memory rather than passively reviewing. Research shows this
+                produces stronger, more durable learning than passive methods.
               </p>
               <p>
-                RecallPrep combines both techniques. You're actively recalling SAT concepts (retrieval practice),
-                and the algorithm spaces out reviews based on your performance (spaced repetition). Together, they
-                create a powerful, evidence-based system for efficient SAT preparation.
+                RecallPrep combines both: you actively recall SAT concepts while the algorithm spaces
+                reviews based on your performance. Together, they create an evidence-based system for
+                efficient SAT prep.
               </p>
             </div>
           </div>
