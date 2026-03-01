@@ -49,9 +49,8 @@ export const siteConfig = {
   },
 
   // CTA ROUTES
-  // NOTE: Update these when signup flow is implemented
   routes: {
-    signup: "#start", // TODO: Replace with actual signup route when implemented
+    signup: "/pricing", // Unified conversion route - directs to pricing page with trial info
     demo: "/how-it-works",
   },
 
@@ -89,6 +88,14 @@ export const siteConfig = {
         recallprep: "Targets your weak areas",
       },
     ],
+  },
+
+  // TUTOR COMPARISON (for pricing page)
+  // NOTE: Frame as market observation, not specific claim
+  tutorComparison: {
+    description: "Private SAT tutors commonly start around $50/hour and can be significantly higher depending on market and experience. RecallPrep offers daily adaptive practice at a predictable monthly cost.",
+    recallprepValue: "Unlimited daily sessions at $49/month",
+    tutorCost: "Starts ~$50/hour",
   },
 
   // COLORS (Tailwind classes - easy to swap)
