@@ -209,20 +209,23 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Efficiency-focused testimonial */}
             <TestimonialCard
-              quote="I used to waste so much time reviewing stuff I already knew. RecallPrep focused my energy where I actually needed help."
+              quote="RecallPrep focused my study time on exactly what I needed. No more wasting hours on stuff I already knew."
               author="Sarah M."
               role="High School Junior"
               improvement="140"
             />
+            {/* Retention/test-day focused testimonial */}
             <TestimonialCard
-              quote="The spaced repetition really works. Topics I thought I'd mastered came back as check-ins, and I realized I'd forgotten them. Saved me on test day."
+              quote="The check-ins saved me. Topics I thought I'd mastered came back weeks later, and I caught what I'd forgotten before test day."
               author="Marcus T."
               role="High School Senior"
               improvement="110"
             />
+            {/* Parent-focused testimonial */}
             <TestimonialCard
-              quote="My son was overwhelmed with traditional SAT books. RecallPrep gave him a clear, daily routine and he actually looked forward to studying."
+              quote="My son went from overwhelmed to consistent. He actually looks forward to his daily sessions now."
               author="Jennifer L."
               role="Parent"
             />
