@@ -61,6 +61,39 @@ export const siteConfig = {
     averageImprovement: "120+ points",
   },
 
+  // HERO PROOF LINE (configurable trust element)
+  // Replace with verified student quote or metric before launch
+  heroProofLine: '"RecallPrep helped me stop wasting time on topics I already knew." — Sarah M., High School Junior',
+
+  // ADAPTIVE PROOF CARD (before/after weekly study shift)
+  adaptiveProofCard: {
+    title: "Adaptive plan in action",
+    subtitle: "How adaptation shifts study focus in one week",
+    beforeLabel: "Before adaptation",
+    afterLabel: "After adaptation",
+    examples: [
+      {
+        topic: "Geometry",
+        before: "2 questions/week",
+        after: "8 questions/week",
+        note: "weak area increased",
+      },
+      {
+        topic: "Linear equations",
+        before: "10 questions/week",
+        after: "3 questions/week",
+        note: "mastered topic reduced",
+      },
+      {
+        topic: "Reading evidence",
+        before: "1 review/week",
+        after: "2 smart check-ins/week",
+        note: "retention protection",
+      },
+    ],
+    takeaway: "Study time shifted toward weak areas while mastered topics moved to maintenance check-ins.",
+  },
+
   // COMPETITOR COMPARISON COPY
   // NOTE: Keep claims general and verifiable. Specific competitor pricing requires citation.
   competitorComparison: {
