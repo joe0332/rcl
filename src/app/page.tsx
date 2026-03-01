@@ -7,6 +7,7 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 import { MockupCard } from "@/components/MockupCard";
 import { FAQ } from "@/components/FAQ";
 import { TrustBar } from "@/components/TrustBar";
+import { BeforeAfterProofCard } from "@/components/BeforeAfterProofCard";
 
 export default function HomePage() {
   return (
@@ -43,6 +44,13 @@ export default function HomePage() {
 
               {/* Trust Bar - Compact */}
               <TrustBar variant="compact" />
+
+              {/* Hero Proof Line */}
+              <div className="mt-6 pt-6 border-t border-border/50">
+                <p className="text-sm text-muted-foreground italic leading-relaxed">
+                  {siteConfig.heroProofLine}
+                </p>
+              </div>
             </div>
 
             {/* Hero Visual - Adaptive Mockups */}
@@ -65,6 +73,15 @@ export default function HomePage() {
                 />
               </div>
             </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Before/After Adaptive Proof Card */}
+      <section className="pb-24 -mt-16">
+        <Container>
+          <div className="max-w-3xl mx-auto">
+            <BeforeAfterProofCard />
           </div>
         </Container>
       </section>
