@@ -54,7 +54,7 @@ export function Nav() {
             </div>
 
             {/* CTA Button */}
-            <Button variant="primary" size="sm" href="/#start">
+            <Button variant="primary" size="sm" href={siteConfig.routes.signup}>
               {siteConfig.cta.primary}
             </Button>
           </div>
