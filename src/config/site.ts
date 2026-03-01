@@ -34,7 +34,7 @@ export const siteConfig = {
   // SOCIAL/CONTACT
   footer: {
     copyright: `© ${new Date().getFullYear()} Recall Labs. All rights reserved.`,
-    email: "hello@recallprep.com",
+    email: "support@recalllabs.io",
     links: [
       { name: "Privacy Policy", href: "/privacy" },
       { name: "Terms of Service", href: "/terms" },
