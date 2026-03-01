@@ -25,10 +25,10 @@ export default function PricingPage() {
               Cancel anytime. Just {siteConfig.pricing.currency}{siteConfig.pricing.price}/month.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="primary" size="lg" href="#pricing">
+              <Button variant="primary" size="lg" href={siteConfig.routes.signup}>
                 {siteConfig.cta.primary}
               </Button>
-              <Button variant="outline" size="lg" href="/how-it-works">
+              <Button variant="outline" size="lg" href={siteConfig.routes.demo}>
                 {siteConfig.cta.secondary}
               </Button>
             </div>
