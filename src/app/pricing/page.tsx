@@ -109,53 +109,39 @@ export default function PricingPage() {
         <Container>
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-foreground mb-12 text-center">
-              Why RecallPrep is worth it
+              Why students choose RecallPrep
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="rounded-2xl border border-border bg-muted/30 p-8">
                 <div className="text-4xl mb-4">⏱️</div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Efficient use of study time
+                  Study time efficiency
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  You don't have hours to waste on SAT prep. RecallPrep's adaptive algorithm ensures every
-                  minute is spent on what will actually improve your score—your weak areas—not what you've
-                  already mastered.
+                  The adaptive algorithm focuses every session on your weak areas, not what you've
+                  already mastered. Make real progress in 20-30 minutes daily.
                 </p>
               </div>
 
               <div className="rounded-2xl border border-border bg-muted/30 p-8">
                 <div className="text-4xl mb-4">🧠</div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Memory science, not guesswork
+                  Proven memory science
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Spaced repetition and retrieval practice aren't trendy buzzwords—they're decades-old,
-                  research-backed techniques proven to build long-term retention. RecallPrep automates what
-                  top students do manually.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border border-border bg-muted/30 p-8">
-                <div className="text-4xl mb-4">💰</div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Affordable vs. traditional prep
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Traditional SAT courses can cost $1,000–$3,000+ for multi-month programs with rigid
-                  commitments. RecallPrep is just ${siteConfig.pricing.price}/month with no lock-in. Pay for
-                  what you use, cancel when you're done.
+                  Spaced repetition and retrieval practice are research-backed techniques that build
+                  long-term retention better than cramming or passive review.
                 </p>
               </div>
 
               <div className="rounded-2xl border border-border bg-muted/30 p-8">
                 <div className="text-4xl mb-4">🔄</div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Prevents forgetting
+                  Retention check-ins
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  It's not enough to learn a topic once. RecallPrep brings back mastered topics as periodic
-                  check-ins, ensuring you retain knowledge all the way to test day—no cramming required.
+                  Mastered topics return as periodic check-ins to prevent forgetting. Retain
+                  knowledge all the way to test day without last-minute cramming.
                 </p>
               </div>
             </div>
@@ -183,10 +169,6 @@ export default function PricingPage() {
                 answer: "Yes. You can cancel your subscription anytime, and you'll retain access through the end of your current billing period. No questions asked, no hassle.",
               },
               {
-                question: "Is there an annual plan or discount?",
-                answer: "Not currently. We're focused on keeping things simple and flexible with our monthly plan. If we introduce an annual option in the future, we'll notify all users.",
-              },
-              {
                 question: `What's included in the ${siteConfig.pricing.currency}${siteConfig.pricing.price}/month plan?`,
                 answer: "Everything. Unlimited adaptive study sessions, full SAT Math and Reading/Writing coverage, spaced repetition scheduling, mastery tracking, analytics, retention check-ins, and access on all devices (web, mobile, tablet).",
               },
@@ -197,10 +179,6 @@ export default function PricingPage() {
               {
                 question: "Do you offer refunds?",
                 answer: "We offer a 7-day money-back guarantee. If you're not satisfied within the first 7 days, contact us for a full refund.",
-              },
-              {
-                question: "Are there any additional costs?",
-                answer: `No. ${siteConfig.pricing.currency}${siteConfig.pricing.price}/month includes everything. There are no upsells, premium tiers, or extra charges for content or features.`,
               },
               {
                 question: "What payment methods do you accept?",
