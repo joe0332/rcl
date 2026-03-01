@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  /* Dark theme base colors */
+  --background: #0a0a0f;
+  --foreground: #f5f5f7;
+  --muted: #1a1a24;
+  --muted-foreground: #a1a1aa;
+  --border: #27272a;
+
+  /* Vibrant accent colors */
+  --primary: #8b5cf6; /* violet */
+  --primary-hover: #7c3aed;
+  --secondary: #06b6d4; /* cyan */
+  --secondary-hover: #0891b2;
+
+  /* Semantic colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Gradient backgrounds for hero sections */
+.gradient-radial {
+  background: radial-gradient(circle at top, rgba(139, 92, 246, 0.15), transparent 50%);
+}
+
+.gradient-glow {
+  background: radial-gradient(
+    circle at center,
+    rgba(139, 92, 246, 0.2),
+    rgba(6, 182, 212, 0.1),
+    transparent 70%
+  );
+}
