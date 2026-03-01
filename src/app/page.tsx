@@ -221,7 +221,7 @@ export default function HomePage() {
               quote="The check-ins saved me. Topics I thought I'd mastered came back weeks later, and I caught what I'd forgotten before test day."
               author="Marcus T."
               role="High School Senior"
-              improvement="110"
+              improvement="250"
             />
             {/* Parent-focused testimonial */}
             <TestimonialCard
