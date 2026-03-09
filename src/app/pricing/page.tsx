@@ -265,7 +265,7 @@ export default function PricingPage() {
                 Free trial available • No credit card required to start
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button variant="primary" size="lg" href="#pricing">
+                <Button variant="primary" size="lg" href={siteConfig.routes.signup}>
                   {siteConfig.cta.primary}
                 </Button>
                 <Button variant="outline" size="lg" href="/how-it-works">

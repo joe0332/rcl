@@ -53,7 +53,7 @@ export function PricingCard() {
         </div>
 
         {/* CTA */}
-        <Button variant="primary" size="lg" href="#pricing" className="w-full mb-6">
+        <Button variant="primary" size="lg" href={siteConfig.routes.signup} className="w-full mb-6">
           {siteConfig.cta.primary}
         </Button>
 

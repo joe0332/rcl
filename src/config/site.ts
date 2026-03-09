@@ -50,7 +50,7 @@ export const siteConfig = {
 
   // CTA ROUTES
   routes: {
-    signup: "/pricing", // Unified conversion route - directs to pricing page with trial info
+    signup: "https://buy.stripe.com/cNi8wP0RD7Pt05Gepe6AM02", // Stripe payment link
     demo: "/how-it-works",
   },
 
