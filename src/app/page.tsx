@@ -262,7 +262,7 @@ export default function HomePage() {
               },
               {
                 question: "Is there a free trial?",
-                answer: "Yes! Sign up to start your free trial and experience adaptive SAT prep for yourself. No credit card required to start.",
+                answer: "Yes! Sign up to start your 7-day free trial and experience adaptive SAT prep for yourself. No credit card required to start.",
               },
               {
                 question: "Can I use this on my phone?",
@@ -283,7 +283,7 @@ export default function HomePage() {
                 Ready to study smarter?
               </h2>
               <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Start your free trial today. No credit card required. Cancel anytime.
+                Start your 7-day free trial today. No credit card required. Cancel anytime.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="primary" size="lg" href={siteConfig.routes.signup}>

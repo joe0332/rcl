@@ -234,7 +234,7 @@ export default function PricingPage() {
               },
               {
                 question: "Is there a free trial?",
-                answer: "Yes! You can start a free trial to experience Recall Labs's adaptive study system before committing. No credit card required to start the trial.",
+                answer: "Yes! You can start a 7-day free trial to experience Recall Labs's adaptive study system before committing. No credit card required to start the trial.",
               },
               {
                 question: "Do you offer refunds?",
@@ -262,7 +262,7 @@ export default function PricingPage() {
                 No long-term commitment • Cancel anytime
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                Free trial available • No credit card required to start
+                7-day free trial available • No credit card required to start
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="primary" size="lg" href={siteConfig.routes.signup}>
