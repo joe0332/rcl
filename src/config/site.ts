@@ -45,7 +45,7 @@ export const siteConfig = {
   // LEGAL DISCLAIMERS
   disclaimers: {
     trademark: "SAT® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this product.",
-    results: "Individual results may vary. Score improvements depend on many factors including baseline knowledge, study consistency, and test-taking skills. Testimonials represent individual experiences and are not guarantees of future results.",
+    results: "Individual results may vary. Score improvements depend on many factors including baseline knowledge, study consistency, and test-taking skills.",
   },
 
   // CTA ROUTES
@@ -62,11 +62,10 @@ export const siteConfig = {
   },
 
   // HERO TRUST ELEMENT (configurable - use one primary trust signal above the fold)
-  // Mode: "quote" displays a student/parent quote | "metric" displays a verified stat
-  heroTrustMode: "quote" as "quote" | "metric",
+  // Mode: "metric" displays a verified stat
+  heroTrustMode: "metric" as "metric",
   heroTrustText: {
-    quote: '"Recall Labs helped me stop wasting time on topics I already knew." — Sarah M., High School Junior',
-    metric: "Trusted by 10,000+ students preparing for the SAT",
+    metric: "Trusted by students preparing for the SAT",
   },
 
   // ADAPTIVE PROOF CARD (before/after weekly study shift)
