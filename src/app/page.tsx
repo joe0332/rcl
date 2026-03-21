@@ -3,7 +3,6 @@ import { siteConfig } from "@/config/site";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { FeatureCard } from "@/components/FeatureCard";
-import { TestimonialCard } from "@/components/TestimonialCard";
 import { MockupCard } from "@/components/MockupCard";
 import { FAQ } from "@/components/FAQ";
 import { BeforeAfterProofCard } from "@/components/BeforeAfterProofCard";
@@ -191,44 +190,6 @@ export default function HomePage() {
             <Button variant="secondary" size="lg" href="/how-it-works">
               See the full process →
             </Button>
-          </div>
-        </Container>
-      </section>
-
-      {/* Outcomes Section */}
-      <section className="py-24">
-        <Container>
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-foreground mb-4">
-              Efficient study, measurable results
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Students report improved confidence and stronger retention when studying with adaptive spaced repetition
-              compared to traditional prep methods.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Efficiency-focused testimonial */}
-            <TestimonialCard
-              quote="Recall Labs focused my study time on exactly what I needed. No more wasting hours on stuff I already knew."
-              author="Sarah M."
-              role="High School Junior"
-              improvement="140"
-            />
-            {/* Retention/test-day focused testimonial */}
-            <TestimonialCard
-              quote="The check-ins saved me. Topics I thought I'd mastered came back weeks later, and I caught what I'd forgotten before test day."
-              author="Marcus T."
-              role="High School Senior"
-              improvement="250"
-            />
-            {/* Parent-focused testimonial */}
-            <TestimonialCard
-              quote="My son went from overwhelmed to consistent. He actually looks forward to his daily sessions now."
-              author="Jennifer L."
-              role="Parent"
-            />
           </div>
         </Container>
       </section>
